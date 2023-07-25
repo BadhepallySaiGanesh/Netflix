@@ -1,0 +1,133 @@
+.login{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* background: url(https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/42f6dd08-d478-46e4-a4a8-e3a93aa7e085/IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    filter: brightness(30%); */
+    background: url(https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg);
+    /* filter: brightness(0.2); */
+    /* background: url(https://images7.alphacoders.com/115/1152297.jpg); */
+    background-size: cover;
+   
+}
+.logo{
+    width: 150px;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 35px;
+}
+.lang{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    top: 10px;
+    right: 110px;
+    color:black;
+    cursor: pointer;
+    width: 90px;
+}
+
+.login_button{
+    background:#fc0a0a;
+    color: white;
+    padding: 10px;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.login_body{
+    color:rgb(241, 8, 8);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 10px;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.login_body h1 {
+    color: rgb(236, 234, 234);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.login_body h2 {
+    color: rgb(239, 239, 239);
+    margin-bottom: 10px;
+}
+.login_body h3 {
+    color: rgb(224, 217, 217);
+    margin-bottom: 40px;
+}
+.login_form input{
+    margin-bottom: 30px;
+    padding: 10px;
+    /* background-color:rgb(48, 47, 47); */
+    color: rgb(234, 232, 232);
+    border-radius: 3px;
+    width: 20%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.login_form button{
+    margin-bottom: 30px;
+    padding: 10px;
+    background:#fc0a0a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: azure;
+    margin-left: 5px;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* .gani{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,0.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,0,) 110%,rgba(0,0,0,0) 120% );
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.8) 0,rgba(0,0,0,0) 50%,rgba(0,0,0,0,) 90%,rgba(0,0,0,0) 100% );
+    background-image: linear-gradient(to center,rgba(0,0,0,0.8) 0,rgba(0,0,0,0) 500%,rgba(0,0,0,0,) 70%,rgba(0,0,0,0) 90%,rgba(0,0,0,0,) 100% );
+} */
+
+
+.registation{
+    max-width: 300px;
+    padding: 60px;
+    background:rgba(0,0,0.85);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+.registation h6{
+    text-transform: capitalize;
+    margin-bottom: 60px;
+    font-size: 32px;
+    color: white;
+}
+.registation form {
+    display: flex;
+    flex-direction: column;
+}
+.registation form input {
+    outline: 0;
+    height: 40px;
+    border: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.registation form button {
+    padding: 16px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: aliceblue;
+    background:#fc0a0a;
+    margin-bottom: 20px;
+}
